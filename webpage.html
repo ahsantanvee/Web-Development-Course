@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+
+    }
+   
+
+    .navbar{
+        background-color: black;
+    }
+    .navbar ul{
+        overflow: auto;
+    }
+    .navbar li{
+        float: left;
+        list-style: none;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: aliceblue;
+        padding:10px 20px;
+    }
+    .navv{
+        
+        margin-top:20px ;
+    }
+    #a{
+        margin-left: 30%;
+    }
+    .container{
+        width: 70%;
+        border: 3px solid peru;
+        margin: 33px auto;
+        background-color: antiquewhite;
+    }
+    .item{
+        border: 4px solid;
+        margin: 12px 3px;
+        padding: 30px 20px;
+        background-color: beige;
+    }
+    #fruit{
+        float: left;
+        width: 49%;
+    }
+    #stationary{
+        float: right;
+        width: 49%;
+    }
+    #vegetable{
+        width: 100%;
+        clear: left;
+    }
+    H1{
+        margin: auto;
+        width: 50%;
+    }
+    .btn{
+        background-color: rgb(218, 29, 101);
+        padding: 8px;
+        border: none;
+        cursor: pointer;
+        font-size: 15px;
+        border-radius: 10px;
+
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    a:hover{
+        color:black;
+        background-color: aliceblue;
+    }
+    a:visited{
+        background-color: yellow;
+    }
+    a:active{
+        background-color: blue;
+    }
+    .btn:hover{
+        color: chocolate;
+        background-color: cornsilk;
+    }
+
+
+</style>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><img src="https://nyc3.digitaloceanspaces.com/fcw-static-new/app/uploads/2019/09/23152710/Asset-2-1.svg" alt="error" width="50px"></li>
+                <li class="navv" id="a"><a href="#" >HOME</a></li>
+                <li class="navv"><a href="#">ABOUT</a></li>
+                <li class="navv"><a href="#">WEBSITE FEATURE</a></li>
+                <li class="navv"><a href="#">FAQs</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <h1>WELCOME TO MY STORE</h1>
+        <div id="fruit" class="item">
+            <h3>fruit</h3>
+            <p id="fruitpra" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti doloribus incidunt, veritatis itaque, aperiam iste, ea exercitationem amet ducimus magnam illo? Quia, alias? Obcaecati minima fugiat soluta harum inventore quisquam.</p>
+
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationarypara" class="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti doloribus incidunt, veritatis itaque, aperiam iste, ea exercitationem amet ducimus magnam illo? Quia, alias? Obcaecati minima fugiat soluta harum inventore quisquam.</p>
+            
+        </div>
+        <div id="vegetable" class="item">
+            <h3>vegetable</h3>
+            <p id="vegetablepara" class="para">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti doloribus incidunt, veritatis itaque, aperiam iste, ea exercitationem amet ducimus magnam illo? Quia, alias? Obcaecati minima fugiat soluta harum inventore quisquam.
+            </p>
+            <a href="http://google.com" class="btn">Read more</a>
+            <button class="btn">contact us</button>
+        </div>
+    </div>
+      
+   
+
+    
+</body>
+</html>
