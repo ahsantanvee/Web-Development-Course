@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before And After pseudo selector    </title>
+    <style>
+        body{
+            background-color: black;
+            
+            color: aliceblue;
+            margin: 0;
+            padding: 0;
+          
+        }
+        header::before{
+            content:'' ;
+            background: url('https://images.unsplash.com/photo-1620554600249-636b81e27699?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            opacity: 0.5;
+
+        }
+        .navigation{
+            display: flex;
+            font-size: 20px;
+        }
+        .navigation li{
+            list-style: none;
+            padding: 5px 20px;
+        }
+        section{
+            margin: 3px 115px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 300px;
+            justify-content: center;
+
+        }
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact us</li>
+            </ul>
+        </nav>
+      
+    </header>
+    <section>
+        <h1>welcome to the Coding World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt recusandae, beatae vel provident maiores asperiores. Quis velit eius distinctio adipisci nesciunt animi assumenda quas eum? Perspiciatis voluptate animi neque enim sequi facilis quidem aut!</p>
+    </section>
+    <hr>
+</body>
+</html>
